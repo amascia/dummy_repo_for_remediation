@@ -1,2 +1,2 @@
-# dummy_repo_for_remediation
+# Automatic Remediation Test
 Dummy repository to test automatic remediation capabilities
