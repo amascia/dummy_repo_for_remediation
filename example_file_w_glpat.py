@@ -22,8 +22,11 @@ DEFAULT_ACCEPT_ENCODING = ", ".join(
     re.split(r",\s*", make_headers(accept_encoding=True)["accept-encoding"])
 )
 
-glpat = "glpat-KFutB42iUfP_Morgh7ye"
+### GG SKIPPING LINES
+glpat = os.getenv("GLPAT")
+### GG SKIPPING LINES
 
 def do_something():
     print("method only for the sake of example")
     return
+
